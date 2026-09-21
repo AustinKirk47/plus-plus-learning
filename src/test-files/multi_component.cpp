@@ -1,4 +1,5 @@
 #include "table_printer.h"
+#include "test_functions.h"
 #include <iostream>
 #include <iomanip>
 #include <string>

@@ -1,6 +1,7 @@
+#include "test_runner.h"
 #include <iostream>
 #include <string>
-#include "test_runner.h"
+#include <vector>
 
 // This is the main direction from which all learning exercises can be run.
 int main()
@@ -13,7 +14,7 @@ int main()
      * 1 - multi-component
      * 2 - data-types
      */
-    bool[3] tests = {false, false, true};
+    std::vector<bool> tests = {false, false, true};
 
     runTests(tests);
     

@@ -1,3 +1,4 @@
 #pragma once
+#include <vector>
 
-void runTests(bool[] testSelections);
+void runTests(std::vector<bool> testSelections);

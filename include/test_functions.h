@@ -4,5 +4,5 @@ void setupTest();
 
 void multiComponentTest();
 
-void dataTypeTest();
+void dataTypesTest();
  

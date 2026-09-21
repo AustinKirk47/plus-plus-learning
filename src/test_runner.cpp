@@ -1,17 +1,19 @@
 #include "test_runner.h"
 #include "test_functions.h"
+#include <iostream>
+#include <vector>
 
-void runTests(bool[] testSelections)
+void runTests(std::vector<bool> testSelections)
 {
-    if (testSelections.size() < 3)
+    if (testSelections.max_size() < 3)
         std::cout << "Test selection array is too small." << std::endl;
 
-    if (bool[0])
-        cppSetupTest();
+    if (testSelections.at(0))
+        setupTest();
 
-    if (bool[1])
+    if (testSelections.at(1))
         multiComponentTest();
 
-    if (bool[2])
+    if (testSelections.at(2))
         dataTypesTest();
 }
